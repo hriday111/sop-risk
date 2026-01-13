@@ -4,7 +4,7 @@ ifdef CI
 override CFLAGS=-std=c17 -Wall -Wextra -Wshadow -Werror -Wno-unused-parameter -Wno-unused-const-variable -pthread
 endif
 
-NAME=sop-risk
+NAME=stage-3
 
 .PHONY: clean all
 
